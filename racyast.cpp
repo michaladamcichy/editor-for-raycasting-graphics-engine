@@ -14,7 +14,6 @@
 #include<utils.h>
 #include<input.h>
 #include<time.h>
-#include<config.h>
 #include<editor.h>
 #include<GameObject.h>
 #include<userInfo.h>
@@ -22,6 +21,8 @@
 
 using namespace std;
 
+const int SCREEN_WIDTH = 1920;
+const int SCREEN_HEIGHT = 1080;
 SDL_Renderer* renderer;
 SDL_Window* window;
 
@@ -45,7 +46,7 @@ int main(int argc, char* argv[])
     gameWorld.printObjectsData();
     }
 
-    EditorView view(SCREEN_WIDTH, SCREEN_HEIGHT, 64, 10);
+    EditorView view(SCREEN_WIDTH, SCREEN_HEIGHT, 64, 10, SCREEN_WIDTH, SCREEN_HEIGHT);
     if (windowMode == FULLSCREEN) view.toggleMouseScrolling();
     Mouse mouse;
     Keyboard keyboard;
