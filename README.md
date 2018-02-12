@@ -1,7 +1,7 @@
 # editor-for-raycasting-graphics-engine
 editor for my raycasting graphics engine
 
-I wrote this editor for my personal use during one afternoon and latera added some little things.
+I wrote this editor for my personal use during one afternoon and later added some little things.
 I used some libraries I had written before. - utils.h, myGeometry.h, input.h. 
 I think it's nicely written concerning the small amount of time of creation, so I decided to share it.
 
