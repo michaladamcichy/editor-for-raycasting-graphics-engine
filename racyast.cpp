@@ -8,10 +8,8 @@
 #include<ctime>
 #include<cmath>
 #include<myMath.h>
-#include<thread>
 #include<myGeometry.h>
 #include<fstream>
-#include<algorithm>
 #include<utility>
 #include<utils.h>
 #include<input.h>
